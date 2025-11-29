@@ -5,6 +5,15 @@
 
 namespace msdfgen {
 
+#undef BLACK
+#undef RED
+#undef GREEN
+#undef YELLOW
+#undef BLUE
+#undef MAGENTA
+#undef CYAN
+#undef WHITE
+
 /// Edge color specifies which color channels an edge belongs to.
 enum EdgeColor {
     BLACK = 0,
